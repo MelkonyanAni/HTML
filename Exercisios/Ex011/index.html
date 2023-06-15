@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1> Imagem dinamica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador. </p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="Imagens/PhotoP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/PhotoM.png" type="image/png">
+        <img src="Imagens/PhotoG.png" alt="imagem flaxivel">
+    </picture>
+    <h1>Reproduzir audios</h1>
+    <p> Vamos aprender a reproduzir áudios em HTML5 </p>
+    <audio src="Midea/intoIt.mp3" controls autoplay></audio>
+    <audio>
+        <source src="Midea/SunnyDay.mp3" type="audio/mpeg">
+
+    </audio>
+    <audio src="Midea/2022-SofiMkheyanOfficial.mp3" controls autoplay></audio>
+    <br>
+    Pastoren im mot ays tarberakov e ashxatum
+    audioi mej avelacnel controls u kavelana.
+    <p> porcem myus tarberaknerov </p>
+    <p>podemos usar outros formatos de arquivo p.ex. mp3, wav, OGG </p>
+    <audio preload="metadata" autoplay controls loop>
+       <source src="Midea/intoIt.mp3" type="audio/mpeg">
+       <source src="Midea/intoIt.mp3" type="audio/ogg">
+       <source src="" type=""audio/wav>
+       <p>infelizmente seu arquivo não consegue reproduzir áudio. <a href="Midea/intoIt.mp3"> clique aquí para baixar o arquivo mp3. </a> </p>
+    </audio>
+    <audio src="Midea/SunnyDay.mp3" controls> </audio>
+    <p>hima noric nkarnerin andradarnam.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/PhotoP.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="Imagens/PhotoM.png" type="image/png">
+       <img src="Imagens/PhotoG.png" alt="Imagem">
+    </picture>
+    <picture>
+        <source media="(max-width: 1500px)" srcset="Imagens/PhotoP.png" type="image/png">
+        <img src="Imagens/PhotoG.png" alt="image">
+    </picture>
+    <br>
+    <audio src="Midea/2022-SofiMkheyanOfficial.mp3" controls> </audio>
+   
+
+
+    
+</body>
+</html>
