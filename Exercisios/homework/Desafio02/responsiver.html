@@ -6,6 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test de responsividade</title>
     <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        :root{
+            --cor1: rgb(78, 3, 3) ;
+            --cor2: rgb(80, 24, 24);
+        }
+
+        header{
+            background-image: linear-gradient(to top, rgb(78, 3, 3), rgb(184, 61, 61));
+            text-align: center;
+            padding-top: 20px;
+
+        }
+
+        header h1{
+            padding-bottom: 20px;
+        }
+        header p{
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        nav{
+            background-color: rgb(78, 3, 3);
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-bottom: 30px;
+            
+        }
+        nav a{
+            padding: 10px 20px 10px 20px;
+            color: aliceblue;
+            transition-duration: .4s ;
+        }
+        nav > a:hover{
+            text-transform: uppercase;
+            border-radius: 5px;
+            background-color: rgb(245, 141, 141);
+            color: brown;
+            font-weight: 700;
+        }
+
         body{
             background-color: gray;
         }
@@ -25,6 +68,17 @@
     </style>
 </head>
 <body>
+    <header>
+        <h1>
+            Titulo do Arquivo
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur nihil fugiat, dignissimos quisquam totam aliquam sunt illo. Minima delectus at amet explicabo molestiae. Officiis veniam at quasi nesciunt? Quidem, commodi!</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">store</a>
+        <a href="#">contuct Us</a>
+    </nav>
     <main>
         <h1>
             Testando responsividade
