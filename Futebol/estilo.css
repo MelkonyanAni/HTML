@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    background-color: yellow;
+    background-color:yellow;
     color: black;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -19,3 +19,14 @@ header h1{
     text-align: center;
 
 }
+main h2{
+    text-align: center;
+background-color: yellow;
+color: black;
+padding-top: 28px;
+padding-bottom: 28px;
+}
+   
+
+
+
