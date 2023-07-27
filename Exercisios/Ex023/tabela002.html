@@ -12,13 +12,41 @@
             border: 1px solid black;
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
+
+        caption{
+            padding: 10px;
+            background-color: rgb(219, 218, 218);
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(97, 97, 97);
+
+        }
+        tbody > tr:nth-child(odd){
+            background-color: rgb(194, 196, 196);
+
+        }
+        tbody > tr:nth-child(even){
+            background-color: aquamarine;
+
+        }
+
          thead, tfoot{
-            background-color: gray;
+            background-color: rgb(87, 86, 86);
          }
         td, th{
             border: 1px solid black;
             padding: 10px;
+        }
+
+        td.num {
+            text-align: right ;
+
         }
 
     </style>
@@ -27,6 +55,9 @@
     <h1>Uso de Tabelas grandes</h1>
 
     <table>
+        <caption>
+            Tabela de população do Brasil
+        </caption>
 
         <thead>
             <tr>
@@ -38,35 +69,105 @@
         <tbody>
             <tr>
                 <td>São Paulo </td>
-                <td> 44 420 459</td>
+                <td class="num"> 44 420 459</td>
             </tr>
             <tr> 
                 <td>Minas Gerais</td>
-                <td>20 538 718	</td>
+                <td class="num">20 538 718	</td>
             </tr>
             <tr>
                 <td>Rio de Janeiro</td>
-                <td>16 054 524</td>
+                <td class="num ">16 054 524</td>
             </tr>
             <tr>
                 <td>Bahia</td>
-                <td>14 136 417	</td>
+                <td class="num">14 136 417	</td>
             </tr>
             <tr>
                 <td>Paraná</td>
-                <td>11 443 208	</td>
+                <td class="num">11 443 208	</td>
             </tr>
             <tr>
                 <td>Rio Grande do Sul</td>
+                <td class="num"> 10 880 506</td>
             </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 058 155</td>
+            </tr>
+            <tr>
+                <td> Ceará</td>
+                <td class="num"> 8 791 688</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 116 132</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7 609 601</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7 055 228</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">6 775 152</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">3 974 495</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">3 941 175</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo </td>
+                <td class="num">3 833 486</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">3 658 813</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3 302 406</td>
+            </tr>
+            <tr>
+                <td> Piauí</td>
+                <td class="num">3 269 200</td>
+            </tr>
+            <tr>
+                <td>Alagoas
+                    <td class="num">3 127 511</td>
+                </td>
+            </tr>
+
+
         </tbody>
         <tfoot>
             <th>Total de Habitantes</th>
-            <td> 0000</td>
+            <td class="num"> <strong>117 473 832</strong></td>
 
         </tfoot>
         
     </table>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi deleniti voluptatibus natus pariatur suscipit sapiente delectus, ipsam aspernatur beatae est iure odit obcaecati corrupti aperiam similique aliquam quam repellendus dolorem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur eligendi, et itaque consectetur assumenda architecto voluptas, dignissimos eveniet, libero perspiciatis cupiditate inventore. Culpa explicabo quam perferendis molestias voluptates dolor? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum saepe veniam asperiores accusantium, ipsam explicabo doloremque, corporis animi odit vero possimus ducimus. Error tenetur minus dignissimos dolorem corrupti Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat facere quisquam, doloribus sint sequi modi quod autem tempora incidunt culpa, ipsam at ad perspiciatis. Et, exercitationem mollitia! Voluptas, ipsam est?
+    </p>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi deleniti voluptatibus natus pariatur suscipit sapiente delectus, ipsam aspernatur beatae est iure odit obcaecati corrupti aperiam similique aliquam quam repellendus dolorem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur eligendi, et itaque consectetur assumenda architecto voluptas, dignissimos eveniet, libero perspiciatis cupiditate inventore. Culpa explicabo quam perferendis molestias voluptates dolor? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum saepe veniam asperiores accusantium, ipsam explicabo doloremque, corporis animi odit vero possimus ducimus. Error tenetur minus dignissimos dolorem corrupti Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat facere quisquam, doloribus sint sequi modi quod autem tempora incidunt culpa, ipsam at ad perspiciatis. Et, exercitationem mollitia! Voluptas, ipsam est?
+    </p> <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi deleniti voluptatibus natus pariatur suscipit sapiente delectus, ipsam aspernatur beatae est iure odit obcaecati corrupti aperiam similique aliquam quam repellendus dolorem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur eligendi, et itaque consectetur assumenda architecto voluptas, dignissimos eveniet, libero perspiciatis cupiditate inventore. Culpa explicabo quam perferendis molestias voluptates dolor? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum saepe veniam asperiores accusantium, ipsam explicabo doloremque, corporis animi odit vero possimus ducimus. Error tenetur minus dignissimos dolorem corrupti Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat facere quisquam, doloribus sint sequi modi quod autem tempora incidunt culpa, ipsam at ad perspiciatis. Et, exercitationem mollitia! Voluptas, ipsam est?
+    </p> <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi deleniti voluptatibus natus pariatur suscipit sapiente delectus, ipsam aspernatur beatae est iure odit obcaecati corrupti aperiam similique aliquam quam repellendus dolorem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur eligendi, et itaque consectetur assumenda architecto voluptas, dignissimos eveniet, libero perspiciatis cupiditate inventore. Culpa explicabo quam perferendis molestias voluptates dolor? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum saepe veniam asperiores accusantium, ipsam explicabo doloremque, corporis animi odit vero possimus ducimus. Error tenetur minus dignissimos dolorem corrupti Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat facere quisquam, doloribus sint sequi modi quod autem tempora incidunt culpa, ipsam at ad perspiciatis. Et, exercitationem mollitia! Voluptas, ipsam est?
+    </p> <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi deleniti voluptatibus natus pariatur suscipit sapiente delectus, ipsam aspernatur beatae est iure odit obcaecati corrupti aperiam similique aliquam quam repellendus dolorem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur eligendi, et itaque consectetur assumenda architecto voluptas, dignissimos eveniet, libero perspiciatis cupiditate inventore. Culpa explicabo quam perferendis molestias voluptates dolor? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum saepe veniam asperiores accusantium, ipsam explicabo doloremque, corporis animi odit vero possimus ducimus. Error tenetur minus dignissimos dolorem corrupti Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat facere quisquam, doloribus sint sequi modi quod autem tempora incidunt culpa, ipsam at ad perspiciatis. Et, exercitationem mollitia! Voluptas, ipsam est?
+    </p> <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi deleniti voluptatibus natus pariatur suscipit sapiente delectus, ipsam aspernatur beatae est iure odit obcaecati corrupti aperiam similique aliquam quam repellendus dolorem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequuntur eligendi, et itaque consectetur assumenda architecto voluptas, dignissimos eveniet, libero perspiciatis cupiditate inventore. Culpa explicabo quam perferendis molestias voluptates dolor? Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eum saepe veniam asperiores accusantium, ipsam explicabo doloremque, corporis animi odit vero possimus ducimus. Error tenetur minus dignissimos dolorem corrupti Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat facere quisquam, doloribus sint sequi modi quod autem tempora incidunt culpa, ipsam at ad perspiciatis. Et, exercitationem mollitia! Voluptas, ipsam est?
+    </p>
 
     
 </body>

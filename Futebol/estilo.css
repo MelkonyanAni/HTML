@@ -10,13 +10,21 @@ body{
 }
 
 header{
-    background-color:yellow;
-    color: black;
+    background-color:rgb(0, 255, 0);
+    color: blue;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 header h1{
     text-align: center;
+
+}
+h2.first{
+    text-align: center;
+    background-color: red;
+    color: orange;
+    padding-top: 28px;
+    padding-bottom: 28px;
 
 }
 main h2{
@@ -26,7 +34,25 @@ color: black;
 padding-top: 28px;
 padding-bottom: 28px;
 }
-   
-
-
-
+h2.four{
+text-align: center;
+background-color: powderblue;
+color: purple;
+padding-top: 28px;
+padding-bottom: 28px;
+}
+h2{
+text-align: center;
+background-color: red;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+h4{
+    text-align: center;
+}
+p{
+    text-indent: 40px;
+    text-align: justify;
+    padding: 20px;
+    font-size: 1.2em;
+}
