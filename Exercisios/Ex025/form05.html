@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulário</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+           <p>
+               <label for="inome">Nome</label>
+               <input type="text" name="nome" id="inome" placeholder="Nome completo" autocomplete="name" required>
+           </p>
+           <p>
+            <label for="iemail">E-mail</label>
+            <input type="email" name="email" id="iemail" autocomplete="email" required>
+           </p>
+           <p><label for="itel">Tel:</label>
+            <input type="tel" name="tel" id="itel" placeholder="(xx)xxxxx-xxxx" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Esportivos</legend>
+            <input type="checkbox" name="fut" id="ifut"><label for="ifut">Futebol</label> <br>
+            <input type="checkbox" name="vol" id="ivol"> <label for="ivol">Volei</label><br>
+            <input type="checkbox" name="basq" id="ibasq"> <label for="ibasq">Basquete</label><br>
+            <input type="checkbox" name="ten" id="iten" checked> <label for="iten">Tenis</label><br>
+
+            <p>
+                <input type="radio" name="sex" id="imasc"> <label for="imasc" value="M">Masculino</label>
+                <input type="radio" name="sex" id="ifem" value="F"><label for="ifem">Feminino</label>
+            </p>
+
+
+        </fieldset>
+
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+    
+</body>
+</html>
