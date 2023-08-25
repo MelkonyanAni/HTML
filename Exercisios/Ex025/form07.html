@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Exemplo de Formulário (Select, Datalist, Textarea)
+    </h1>
+    <p>
+        <form action="cadastro.php" method="get" autocomplete="on">
+            <p>
+                <Label for="iestado">Estados do Brasil</Label>
+                <select name="estado" id="iestado">
+                    <option value="" selected> ---Escolha---</option>
+                    <optgroup label="Região Sudeste">
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="MG" selected>Minas Gerais</option>
+                    </optgroup>
+                
+                    <optgroup label="Região Nordeste">
+                        <option value="Ma">Maranhão</option>
+                        <option value="Pe">Pernambuco</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                    </optgroup>    
+            </select>
+            </p>
+          
+            <p>
+                <label for="iprof">Prosissão:</label>
+                <input type="text" name="prof" id="irof" list="listprof">
+                    <datalist id="listprof">
+                        <option value="adm">Administrador</option>
+                        <option value="dnt">Dentist</option>
+                        <option value="prog">Programador</option>
+                    </datalist>
+            </p>
+            <p>
+                <label for="imsng">Mensagem:</label> <br>
+                <textarea name="msng" id="imsng" cols="30" rows="10"></textarea>
+            </p>
+
+            
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>      
+
+
+        </form>
+    </p>
+</body>
+</html>
