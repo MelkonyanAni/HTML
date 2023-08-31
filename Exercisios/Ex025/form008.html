@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1> Exemplo de Formulário (Output)</h1>
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inum1">Numero 1:</label>
+            <input type="number" name="num1" id="inum1" min="0" max="50" required oninput="isoma.innerHTML = Number(inum1.value) + Number(inum2.value)">
+        </p>
+        <p>
+            <label for="inum2">Numero 2:</label>
+            <input type="number" name="num2" id="inum2" required min="0" max="50" oninput="isoma.innerHTML=Number(inum1.value)+Number(inum2.value)">    
+        </p>
+        <p>
+            <label for="isoma">Soma:</label>
+            <output name="soma" id="isoma"> 0</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+    
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="in1">Número 1: </label>
+            <input type="number" name="n1" id="in1" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+
+        <p>
+            <label for="in2">Número 2: </label>
+            <input type="number" name="n2" id="in2" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+
+        <p>
+            <label for="isoma">Soma: </label>
+            <output name="soma" id="isoma">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+        </form>
+
+        <form action="cadastro1.php" method="get" autocomplete="on">
+
+            <p>
+                <label for="itiv1">Numero 1:</label>
+                <input type="number" name="tiv1" id="itiv1" min="0" max="100" required oninput="igumar.innerHTML = Number(itiv1.value)+ Number(itiv2.value)">
+            </p>
+            <p>
+                <label for="itiv2">Numero2:</label>
+                <input type="number" name="tiv2" id="itiv2" min="0" max="100" required oninput="igumar.innerHTML=Number(itiv1.value)+Number(itiv2.value)">
+            </p>
+            <p>
+                <label for="igumar">Soma:</label>
+                <output name="gumar" id="igumar">0</output>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+
+        </form>
+</body>
+</html>
