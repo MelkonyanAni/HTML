@@ -1,0 +1,24 @@
+@charset "uth-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgba(97, 5, 5, 0.801);
+}
+h1{
+    text-align: center;
+}
+menu{
+    background-color: brown;
+}
+li{
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+main{
+    width: 400px;
+    margin: auto;
+}
