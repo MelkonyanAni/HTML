@@ -4,50 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
-   <style>
-        /*declarações gerais*/
-        
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    <style>
+        @media screen {
+            /*Configurações gerais*/
 
-html, body{
-    width: 100vw;
-    height: 100vh;
-    background-color: #233eff;
-    background-size:contain;
-    background-repeat: no-repeat;
-}
-h1{
-    color: whitesmoke;
-    text-shadow: 2px 2px rgb(0, 0, 107);
-    padding: 10px;
-}
-        /*declarações retrato*/
-    @media  screen and ( orientation: portrait) {
-        body{
-    background-image: url(imagem/cev-portrait.jpg);
-    background-position: center bottom;
-    }
- }
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
 
+            html, body{
+                width: 100vw;
+                height: 100vh;
+                background-color: #233eff;
+                background-size:contain;
+                background-repeat: no-repeat;
+            }
+            h1{
+                color: whitesmoke;
+                text-shadow: 2px 2px rgb(0, 0, 107);
+                padding: 10px;
+            }
+                        
+                    }
+        @media  screen and (orientation: portrait) {
+            /*aparelho deitado (modo landscape )*/
 
-        /*declarações paisagem*/
-    @media screen and ( orientation: landscape) {
-        body{
-    background-image: url(imagem/cev-landscape.jpg);
-    background-position: left bottom;
-}
+            body{
+                background-image: url(imagem/cev-landscape.jpg);
+                background-position: left bottom;
+            }
+            
+        }
+        @media screen and (orientation: landscape) {
+            /*Aparelho em pe (portrait)*/
 
-   </style>
+            body{
+                background-image: url(imagem/cev-portrait.jpg);
+                background-position: center bottom;
+            }
+            
+        }
+    </style>
+   
 </head>
+
 <body>
     <h1>
         Mude a orientação do seu despositivo
     </h1>
-    }
+    
 
 </body>
 </html>
