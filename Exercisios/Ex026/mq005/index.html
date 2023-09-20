@@ -12,10 +12,10 @@
         <h1>
             Meu Site
         </h1>
-        <span id="burger" class="material-symbols-outlined">
+        <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
             menu
         </span>
-        <menu>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -33,5 +33,14 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat laboriosam repudiandae voluptas in, magni exercitationem modi praesentium, aliquam soluta fugiat, rem ad nostrum. Architecto ea numquam, necessitatibus aut nam sit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, dolore non corrupti obcaecati doloremque error iure repellendus quod temporibus magnam architecto necessitatibus et aliquid eos, pariatur optio laudantium nam? Labore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam dolore voluptas sit odit recusandae quos porro odio sapiente quidem, maxime totam, animi amet vitae velit placeat labore nemo, beatae corporis!</p>
         </article>
     </main>
+    <script>
+        function clickMenu(){
+            if(itens.style.display=='block'){
+                itens.style.display='none'}
+            else{
+                itens.style.display='block'
+            }
+        }
+    </script>
 </body>
 </html>

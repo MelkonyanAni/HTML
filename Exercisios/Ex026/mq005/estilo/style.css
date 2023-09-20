@@ -29,7 +29,7 @@ span#burger:hover{
     cursor: pointer;
 }
 menu{
-    display: block;
+    display: none;
 }
 
 menu>ul{
