@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span#menu{
+    color: rgb(109, 4, 4);
+    text-align: end;
+    display: block;
+}
+
+span#menu:hover{
+    cursor: pointer;
+}
+nav{
+    display: none;
+}
+
+nav >a {
+    display: block;
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+nav>a:hover{
+    color: brown;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 25%;
+}
