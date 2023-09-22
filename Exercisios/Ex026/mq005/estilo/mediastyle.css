@@ -9,12 +9,16 @@ Desktop: de 992 até 1200
 Grandes telas: acima de 1200px
 */
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
    span#burger{
     display: none;
    }
     menu{ display: block;
 
+    }
+
+    menu>ul>li{
+        display: inline-block;
     }
 
     
