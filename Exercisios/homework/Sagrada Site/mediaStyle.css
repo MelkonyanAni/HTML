@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/**/
+
+@media screen and (min-width: 700px) {
+    span#menu{
+        display: none;
+    }
+    nav{
+        display: block;
+    }
+    nav>a{
+        display: inline-block;
+        color: brown;
+    }
+    nav>a:hover{
+        color: rgb(66, 66, 66);
+        text-decoration: underline;
+    }
+   
+    
+}

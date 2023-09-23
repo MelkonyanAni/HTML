@@ -24,7 +24,7 @@ nav >a {
     color: rgb(59, 59, 59);
     text-decoration: none;
     font-weight: bolder;
-
+    text-align: end;
 }
 
 nav>a:hover{
@@ -35,4 +35,24 @@ img{
     display: block;
     margin: auto;
     width: 25%;
+}
+
+main h1{
+    text-align: center;
+    font-weight: 100;
+    font-size: 2em;
+    color: rgb(97, 97, 97);
+}
+article{
+    border: 1px solid rgb(99, 2, 2);
+}
+
+p{
+    max-width: 700px;
+    text-align: justify;
+    margin: auto;
+    line-height: 20px;
+    padding: 10px;
+    text-indent: 30px;
+
 }
