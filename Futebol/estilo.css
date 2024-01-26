@@ -29,8 +29,8 @@ h2.first{
 }
 main h2{
     text-align: center;
-background-color: yellow;
-color: black;
+background-color: yellow
+color black;
 padding-top: 28px;
 padding-bottom: 28px;
 }
@@ -43,7 +43,7 @@ padding-bottom: 28px;
 }
 h2{
 text-align: center;
-background-color: red;
+background-color: yellow;
 padding-top: 15px;
 padding-bottom: 15px;
 }
